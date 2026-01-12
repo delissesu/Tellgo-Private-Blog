@@ -26,33 +26,12 @@ Telegraph dirancang sebagai cara termudah untuk mempublikasikan konten di web. T
 
 Kami meninggalkan pola Object-Oriented tradisional untuk merangkul **Immutability**, **Pure Functions**, dan **Composition**, menghasilkan basis kode yang dapat diprediksi, mudah diuji, dan aman (thread-safe) secara desain.
 
-## ✨ Fitur Utama
-
-*   **Functional Core**: Dibangun dengan pure functions, closures, dan higher-order functions untuk keandalan maksimal.
-*   **Anonymous Publishing**: Sistem kepemilikan berbasis cookie memungkinkan penulisan instan tanpa perlu mendaftar.
-*   **SQLite Persistence**: Penyimpanan data yang tangguh menggunakan SQLite dengan query yang teroptimasi dan kemampuan soft-delete.
-*   **RESTful Architecture**: Routing URL yang bersih dan semantik mengikuti standar web modern.
-*   **Responsive Design**: Pengalaman membaca dan menulis yang indah dan bebas gangguan di perangkat apa pun.
-*   **Secure by Default**: Sanitasi HTML otomatis dan verifikasi kepemilikan untuk semua operasi.
-
-## 🛠️ Teknologi
-
-*   **Bahasa**: Go (Golang)
-*   **Database**: SQLite
-*   **Templating**: Go `html/template`
-*   **Arsitektur**: Functional Domain-Driven Design
-*   **Frontend**: Vanilla CSS (Tanpa framework, performa murni)
-
 ## 🚀 Mulai Sekarang
 
 Rasakan kesederhanaan Telegraph di komputer lokal Anda dalam hitungan detik.
 
-1.  **Clone repositori** ke workspace lokal Anda.
-2.  **Jalankan aplikasi** menggunakan perintah Go standar.
+1.  **Clone repositori** ke workspace lokal.
+2.  **Jalankan aplikasi** menggunakan perintah Go.
 3.  **Buka browser** dan kunjungi `http://localhost:8080`.
 
 Selesai! Anda siap untuk mulai mempublikasikan tulisan.
-
-## 📄 Lisensi
-
-Telegraph adalah perangkat lunak open-source yang dilisensikan di bawah [MIT license](https://opensource.org/licenses/MIT).
